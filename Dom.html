@@ -8,6 +8,20 @@
 </head>
 
 <body>
+<h3> Clicks:<span id="clicks">0</span></h3>
+<button type="button" onclick="add()">+</button>
+
+
+
+
+<script>
+ let clicks= 0;
+ function add(){
+    clicks++;
+    document.getElementById("clicks").innerText = clicks
+ };
+
+</script>
 
 
 
@@ -36,12 +50,6 @@
 
 
 
-
-
-
-
-
-    
     <!-- <div id="first class">
         <h1>programming languages</h1>
         <ul class="list">
